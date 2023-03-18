@@ -172,7 +172,7 @@ button{
 @media(max-width:480px){
     .container{
         flex-direction: column;
-        height: 200vh;
+        
     }
     .section{
     width: 100%;
