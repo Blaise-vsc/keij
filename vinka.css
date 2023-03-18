@@ -10,13 +10,13 @@ header{
     height: 13vh;
 }
 .container{
-    height: 85vh;
+    /* height: 85vh; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     gap: 0px;
-    padding: 3rem 3rem;
+    padding: 1rem 1rem;
     flex-wrap: wrap;
 }
 .section{
