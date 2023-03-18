@@ -10,7 +10,7 @@ header{
     height: 13vh;
 }
 .container{
-    /* height: 85vh; */
+    height: 60vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
