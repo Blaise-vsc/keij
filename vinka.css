@@ -282,7 +282,7 @@ button{
         font-size: 14px;
     }
     body{
-        background:linear-gradient(#000000bd,#000000af),url(./bggood.png);
+        background:linear-gradient(#000000bd,#000000af),url(./newbg.jpg);
         background-size: cover;
         background-attachment: fixed;
     }
