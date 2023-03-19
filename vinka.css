@@ -1,9 +1,7 @@
 *{padding: 0;margin: 0;box-sizing: border-box;}
 body{
-    background:url(./bggood.png);
-    background-attachment: fixed;
+    background:rgb(150, 150, 150);
 }
-
 .imheader{
     object-fit: cover;
 }
@@ -196,6 +194,7 @@ button{
 .call{
     color: #fffadc;
     background: #171717c8;
+    background-attachment: fixed;
     padding: 14px 30px;
     border-radius: 20px;
 }
@@ -283,7 +282,7 @@ button{
         font-size: 14px;
     }
     body{
-        background:linear-gradient(#d5d5d500,#d5d5d525),url(./bggood.png);
+        background:linear-gradient(#d5d5d500,#d5d5d54e),url(./bggood.png);
         background-size: cover;
         background-attachment: fixed;
     }
@@ -315,8 +314,5 @@ button{
     .a3{
         padding: 15px;
     }
-    body{
-        background-attachment: fixed;
-    }
-
+    
 }
