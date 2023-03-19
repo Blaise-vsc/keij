@@ -195,7 +195,7 @@ button{
     color: #fffadc;
     background: #171717c8;
     background-attachment: fixed;
-    padding: 40px 30px;
+    padding: 14px 30px;
     border-radius: 20px;
 }
 
@@ -292,12 +292,15 @@ button{
     }
     .btnsection{
         position: fixed;
-        bottom: 0%;
+        bottom:0%;
         width: 100vw;
         padding: 10px;
         background: #171717;
         border-top-right-radius: 40px;
-        border-top-left-radius: 40px;  
+        border-top-left-radius: 40px; 
+        display: flex; 
+        flex-direction: row;align-items: center;
+
     }
     .call{
         color: #fffadc;
