@@ -1,7 +1,9 @@
 *{padding: 0;margin: 0;box-sizing: border-box;}
 body{
-    background:rgb(150, 150, 150);
+    background:url(./bggood.png);
+    background-attachment: fixed;
 }
+
 .imheader{
     object-fit: cover;
 }
