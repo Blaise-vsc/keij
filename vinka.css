@@ -1,22 +1,27 @@
 *{padding: 0;margin: 0;box-sizing: border-box;}
 body{
-    background: rgb(223, 223, 223);
+    background:rgb(150, 150, 150);
 }
 .imheader{
     object-fit: cover;
 }
 header{
-    background: white;
-    height: 13vh;
+    background: #ffffff;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 25px;
+    flex-wrap: wrap;
 }
 .container{
-    height: 60vh;
+    height: 85vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     gap: 0px;
-    padding: 1rem 1rem;
+    padding: 3rem 3rem;
     flex-wrap: wrap;
 }
 .section{
@@ -33,12 +38,13 @@ header{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .profile{
-    background: linear-gradient(to right,rgba(255, 255, 255, 0.505),rgba(255, 255, 255, 0)),url(./profil.png);
+    background: linear-gradient(to right,#fffadc13,#fffadc),url(./profil.png);
     background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
 
 }
 .vick{
@@ -48,15 +54,20 @@ header{
     display: flex;
     flex-direction: column;
     gap: 7px;
+    flex-wrap: wrap;
 }
 .secone{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: linear-gradient(to right,#fffadc69,#fffadc),url(./etaler2.jpg);
+    background-size: cover;
+
     align-items: center;
     gap: 15px;
     padding: 20px;
     font-size: 20px;
+    flex-wrap: wrap;
     flex-wrap: wrap;
 
 
@@ -68,14 +79,14 @@ header{
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    background: #616161;
+    background: #d5d5d5;
 }
 .imag{
     object-fit: cover;
 }
 .imag{
-    width: 95%;
-    border-radius: 50px;
+    width: 100%;
+    border-radius: 20px;
 }
 .sechedd{
     
@@ -84,6 +95,8 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     
 }
 .btnsection{
@@ -92,12 +105,14 @@ header{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .abtn{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 button{
@@ -108,12 +123,18 @@ button{
     border-radius: 5px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
 }
 .trouble{
     height: 80%;
     width: 100%;
-    background: url(./obama.jpg);
+    /* background: url(./obama.jpg); */
     background-size: cover;
+    border-radius: 20px;
+}
+.obbama{
+    object-fit: cover;
+    width: 100%;
     border-radius: 20px;
 }
 .trouble1{
@@ -122,6 +143,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     font-size: 15px;
     padding-bottom: 20px;
     
@@ -143,6 +165,7 @@ button{
     width:100%;
     object-fit: cover;
     border-radius: 20px;
+    
 }
 .derinier{
     width: 90%;
@@ -150,6 +173,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 .derinier1{
@@ -158,9 +182,20 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fdd3ba;
+    color: #170e09;
     padding-left: 13px;
+    flex-wrap: wrap;
     
+}
+.clasbtn{
+    font-size: 15px;
+    
+}
+.call{
+    color: #fffadc;
+    background: #171717c8;
+    padding: 7px 30px;
+    border-radius: 20px;
 }
 
 
@@ -169,56 +204,114 @@ button{
 
 
 
+@media(max-width:768px){
+    .section{
+        width: 45%;
+    }
+    .trouble1{
+        font-size: 9px;
+    }
+    .trouble1, h2{
+        margin-bottom: 3px;
+    }
+    .a1{
+        width: 35%;
+    }
+    .a2{
+        width: 60%;
+    }
+    .span-solv{
+        display: none;
+    }
+    .derinier1{
+     height: 13%;
+    }
+    .derinier{
+     height: 80%;
+    }
+    .derinier, h2{
+        font-size: 25px;
+        height: 13%;
+    }
+    .image, .etaler{
+        display: none;
+    }
+}
+
 @media(max-width:480px){
     .container{
         flex-direction: column;
-        height: 200vh;
+        height: 100%;
+        gap: 30px;
+        padding: 2rem 2rem;
+        }
+        .section{
+            width: 100%;
+            padding: 15px;
     }
-    .section{
-    width: 100%;
-    /* height: 20%; */
-    border-radius: 20px;
+    .image, .etaler{
+        display: block;
     }
-    .imheader{
-        height: px;
-        object-fit: cover;
-        margin-left: 15px;
-        
-        
+    .a2{
+        width: 50%;
+        /* padding-left: 20px; */
     }
-    .a2, p{
-        font-size: 13px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    .a1{
+        width: 40%;
     }
-    .etaler{
-        width:100%;
-        object-fit: cover;
-        border-radius: 20px;
-    }
-    .derinier{
-        width: 90%;
-        height: 75%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .derinier1{
-        width: 100%;
-        height: 23%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #fdd3ba;
-        padding-left: 13px;
-        
-    }
-    header{
-        height: 15vh;
-    }
-    .secone{
-        background: linear-gradient(to right, rgba(255, 255, 255, 0.281),rgb(255, 255, 255)),url(./etaler2.jpg);
-        background-size: cover;
+    .derinier, h2{
+        font-size: 22px;
+        height: 13%;
     }
     
+    .span-solv{
+        display: block;
+    }
+    .secone{
+        padding: 20px 20px;
+       
+    }
+    .profile{
+        justify-content: space-between;
+    }
+    .seco{
+        padding: 40px;
+    }
+    .clasbtn{
+        font-size: 14px;
+    }
+    body{
+        background:linear-gradient(#d5d5d500,#d5d5d525),url(./bggood.png);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    body{
+        position: relative;
+        padding-bottom: 30px;
+    }
+    .btnsection{
+        position: fixed;
+        bottom: 0%;
+        width: 100vw;
+        padding: 5px;
+        background: #171717;
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;  
+    }
+    .call{
+        color: #fffadc;
+        background: #171717c8;
+        padding: 7px 30px;
+        border-radius: 20px;
+    }
+    .image{
+        background: none;
+    }
+    .colore{
+        color: #fffadc;
+    }
+    .a3{
+        padding: 15px;
+    }
+
 }
