@@ -313,5 +313,8 @@ button{
     .a3{
         padding: 15px;
     }
+    body{
+        background-attachment: fixed;
+    }
 
 }
