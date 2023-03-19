@@ -60,7 +60,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(to right,#fffadc69,#fffadc),url(./etaler2.jpg);
+    background: linear-gradient(to right,#fffadc9e,#fffadc00),url(./etaler2.jpg);
     background-size: cover;
 
     align-items: center;
@@ -122,8 +122,17 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;   
+}
+.buttonn{
+    padding: 6px 10px;
+    color: #ffffff;
+    font-size: 17px;
+    background: rgb(99, 99, 118);
+    border: none;
+    border-radius: 5px;
     
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
 }
 .trouble{
     height: 80%;
